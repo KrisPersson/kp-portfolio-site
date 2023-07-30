@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  width: inherit;
+  height: inherit;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 3rem 1fr;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  
+}

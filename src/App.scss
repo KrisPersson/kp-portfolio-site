@@ -1,0 +1,66 @@
+header {
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+  background: rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.hero {
+  padding: 1rem;
+  grid-column: 1 / 2;
+  grid-row: 2 / -1;
+
+  &__img-container {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  img {
+    width: inherit;
+  }
+
+  &__infobox {
+    
+    width: 100%;
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background: rgb(34, 34, 34);
+    color: rgb(4,164,49);
+    font-family: 'Press Start 2P';
+    font-size: 0.7rem;
+    line-height: 1rem;
+    a {
+      color: rgb(4,164,49);
+
+    }
+    p {
+      margin: 1rem 0;
+    }
+  }
+
+}
+
+main {
+  h1 {
+    text-align: center;
+    font-family: 'Kanit';
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+}
+
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
