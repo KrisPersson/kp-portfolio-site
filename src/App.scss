@@ -1,7 +1,6 @@
 header {
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
-  background: rgb(0 0 0 / 0.2);
   padding: 1rem;
 }
 
@@ -41,7 +40,6 @@ header h1 {
     line-height: 1rem;
     a {
       color: rgb(4,164,49);
-
     }
     p {
       margin: 1rem 0;

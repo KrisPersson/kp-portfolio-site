@@ -1,8 +1,16 @@
 import { useState } from 'react'
 
 import './App.scss'
+import Project from './components/Project'
+import { IProject } from './interfaces'
+import projectInfo from "./projectInfo.json"
+
+console.log(projectInfo)
+
+
 
 function App() {
+
   const [count, setCount] = useState(0)
 
   const now = new Date()
@@ -14,7 +22,15 @@ function App() {
     myAge -= 1
   }
 
-
+  const myProjects = projectInfo.map((project: IProject, i: number) => {
+    return <Project 
+      key = { i }
+      projectName = { project.projectName }
+      links = { project.links }
+      tech = { project.tech }
+      thumbnail = { project.thumbnail }
+      />
+  })
 
 
   return (
@@ -39,7 +55,7 @@ function App() {
       <main>
         <h1>Hi, I'm Kris! Check out my projects below</h1>
         <section className="projects-container">
-          
+          { myProjects.length > 0 && myProjects }
         </section>
       </main>
       

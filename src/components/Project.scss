@@ -1,0 +1,82 @@
+.project {
+    width: 14rem;
+    height: 18rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 30% 20%;
+    position: relative;
+    margin: 0.5rem;
+
+    h2 {
+        font-size: 0.75rem;
+        position: absolute;
+        left: 0.75rem;
+        top: 0.75rem;
+        margin: 0;
+        background: rgb(39 39 39 / 0.8);
+        color: rgb(220, 220, 220);
+        padding: 0.25rem 0.5rem;
+        border-radius: 20px;
+        border: 1px solid rgb(25, 25, 25);
+    }
+
+    &__img-container {
+        grid-column: 1 / -1;
+        grid-row: 1 / span 1;
+        border-radius: 7px 7px 0 0;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        i {
+            font-size: 2rem;
+            color:rgb(39 39 39 / 0.25);
+            margin-bottom: 0.25rem;
+        }
+        p {
+            margin: 0;
+            color:rgb(39 39 39 / 0.25)
+
+        }
+        overflow: hidden;
+    }
+
+    &__links-container {
+        grid-column: 1 / -1;
+        grid-row: 3 / span 1;
+        border-radius: 0 0 7px 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__techniques-container {
+        grid-column: 1 / -1;
+        grid-row: 2 / span 1;
+        border-top: 2px solid black;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 0.5rem;
+        .tech-logo {
+            width: 2.5rem;
+            height: 2.5rem;
+            margin: 0.15rem;
+
+        }
+    }
+}
