@@ -5,9 +5,6 @@ import Project from './components/Project'
 import { IProject } from './interfaces'
 import projectInfo from "./projectInfo.json"
 
-console.log(projectInfo)
-
-
 
 function App() {
 

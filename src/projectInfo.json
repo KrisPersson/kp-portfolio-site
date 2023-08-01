@@ -26,7 +26,62 @@
         "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/63402388a2154900087a4d5a/screenshot_2022-10-07-13-03-14-0000.png",
         "links": {
             "ui": "https://kpbonzai.netlify.app",
-            "code": "https://github.com/KrisPersson/four-in-a-row-game"
+            "code": "https://github.com/KrisPersson/yhjs-10-html-css-Individual-assignment"
+        },
+        "tech": [
+            "html", "css"
+        ]
+    },
+    {
+        "projectName": "KP Mini Library",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/63ab4f2b645d915a862f3638/screenshot_2022-12-27-20-02-49-0000.png",
+        "links": {
+            "ui": "https://kpminilibrary.netlify.app",
+            "code": "https://github.com/KrisPersson/yhjs-ts-mini-library"
+        },
+        "tech": [
+            "html", "css", "ts"
+        ]
+    },
+    {
+        "projectName": "KP L. Carroll Word Puzzle",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6374e1bab95aa800099bb4f1/screenshot_2022-11-16-13-12-32-0000.png",
+        "links": {
+            "ui": "https://kp-lcarrollwordpuzzle.netlify.app",
+            "code": "https://github.com/KrisPersson/yhjs-js-9.2.-l-carroll-word-puzzle"
+        },
+        "tech": [
+            "html", "css", "js"
+        ]
+    },
+    {
+        "projectName": "High Five Hellmoppers Website",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/63c6a70f3da18000081d9a75/screenshot_2023-01-17-13-48-08-0000.png",
+        "links": {
+            "ui": "https://highfivehellmoppers.com",
+            "code": "https://github.com/KrisPersson/high-five-band-website"
+        },
+        "tech": [
+            "html", "css"
+        ]
+    },
+    {
+        "projectName": "Enellas Kahoots",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6367c422bfc0ac0009077ef9/screenshot_2022-11-06-14-26-57-0000.png",
+        "links": {
+            "ui": "https://enellaskahoots.netlify.app",
+            "code": "https://github.com/KrisPersson/enellas-kahoots"
+        },
+        "tech": [
+            "html", "css", "js"
+        ]
+    },
+    {
+        "projectName": "KP Pixel Pikachu",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64c8e1b6dbec666c985e80b1/screenshot_2023-08-01-10-43-15-0000.png",
+        "links": {
+            "ui": "https://kp-pikachu.netlify.app",
+            "code": "https://github.com/KrisPersson/pixel-pikachu-css"
         },
         "tech": [
             "html", "css"

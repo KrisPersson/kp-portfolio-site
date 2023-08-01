@@ -12,7 +12,7 @@ export default function Project({ projectName, thumbnail, links, tech }: IProjec
             </section>
             <aside className="project__links-container">
                 { links.ui ? <a href={ links.ui } target="_blank">UI</a> : <a>-</a>}
-                <a href={ links.code } target="_blank">Code</a>
+                <a href={ links.code } target="_blank"><i className="fa-brands fa-github"></i>Code</a>
             </aside>
             <aside className="project__techniques-container">
                 { tech.map((technique, i) => <img key={i} className="tech-logo" src={`/${technique}.svg`} alt={technique} />) }
