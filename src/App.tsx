@@ -39,6 +39,15 @@ function App() {
         <div className='hero__img-container'>
           <img src="/profil-kp.jpeg" alt="Krille" />
         </div>
+        <section className='hero__links'>
+          <a href="https://github.com/KrisPersson/" target="_blank"><i className="fa-brands fa-github"></i></a>
+          <a className="logo-linkedin" href="https://www.linkedin.com/in/krispersson/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+          <a className="logo-instagram" href="https://www.instagram.com/krispersson/" target="_blank"><img src="/instagram.svg" alt="Instagram" /></a>
+          <a className="logo-facebook" href="https://www.facebook.com/kristofer.persson.9" target="_blank"><i className="fa-brands fa-square-facebook"></i></a>
+
+
+
+        </section>
         <section className='hero__infobox'>
           <p>Name: Kristofer Persson</p>
           <p>Age: {myAge}</p>

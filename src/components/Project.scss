@@ -21,6 +21,7 @@
         padding: 0.25rem 0.5rem;
         border-radius: 20px;
         border: 1px solid rgb(25, 25, 25);
+        font-family: 'Quicksand', sans-serif;
     }
 
     &__img-container {
@@ -31,6 +32,14 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+
+        a {
+            margin: 0;
+            padding: 0;
+            border: none;
+            height: 100%;
+            width: 100%;
+        }
         img {
             height: 100%;
             width: 100%;
@@ -55,6 +64,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         a {
             width: 50%;
             height: 100%;
@@ -62,6 +72,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            font-family: 'Quicksand', sans-serif;
+            text-decoration: none;
+            font-weight: 700;
+            color: black;
 
             i {
                 margin-right: 0.25rem;

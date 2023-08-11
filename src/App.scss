@@ -7,6 +7,8 @@ header {
 header h1 {
   margin: 0;
   font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
 }
 
 .hero {
@@ -26,13 +28,45 @@ header h1 {
     width: inherit;
   }
 
+  &__links {
+    width: 100%;
+    height: 3rem;
+    // border: 1px solid black;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 2.5rem;
+    padding: 0.1rem;
+
+    a {
+      margin: 0 0.25rem;
+      color: black;
+
+      img {
+        height: 2.3rem;
+        width: 2.3rem;
+      }
+    }
+    .logo-linkedin {
+      color: rgb(9,102,194);
+    }
+    .logo-facebook {
+      color: rgb(27,116,227);
+    }
+    .logo-instagram {
+      margin-top: 0.4rem;
+    }
+  }
+
+
   &__infobox {
     
     width: 100%;
     border: 2px solid rgb(237, 237, 237);
     border-radius: 10px;
     padding: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     background: rgb(34, 34, 34);
     color: rgb(4,164,49);
     font-family: 'Press Start 2P';

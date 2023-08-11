@@ -8,7 +8,7 @@ export default function Project({ projectName, thumbnail, links, tech }: IProjec
         <article className="project">
             <h2>{ projectName }</h2>
             <section className="project__img-container">
-                { thumbnail ? <img src={ thumbnail } /> : <><i className="fa-regular fa-image"></i><p>NO PREVIEW</p></> }
+                { thumbnail ? <a href={ links.ui } target="_blank"><img src={ thumbnail } /> </a>: <><i className="fa-regular fa-image"></i><p>NO PREVIEW</p></> }
             </section>
             <aside className="project__links-container">
                 { links.ui ? <a href={ links.ui } target="_blank">UI</a> : <a>-</a>}
