@@ -8,7 +8,6 @@ import projectInfo from "./projectInfo.json"
 
 function App() {
 
-  const [count, setCount] = useState(0)
 
   const now = new Date()
   const birthdate = new Date('1987-01-14')
