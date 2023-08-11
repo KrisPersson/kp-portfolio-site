@@ -19,3 +19,15 @@ body {
   min-height: 100vh;
   
 }
+
+@media screen and (max-width: 805px) {
+  
+
+  #root {
+    width: inherit;
+    height: inherit;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

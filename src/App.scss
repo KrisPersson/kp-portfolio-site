@@ -96,3 +96,14 @@ main {
   display: flex;
   flex-flow: row wrap;
 }
+
+@media screen and (max-width: 805px) {
+  .hero {
+    padding: 1rem;
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+  }
+  .projects-container {
+    justify-content: center;
+  }
+}
