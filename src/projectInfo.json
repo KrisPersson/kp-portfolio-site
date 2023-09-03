@@ -22,28 +22,6 @@
         ]
     },
     {
-        "projectName": "KP Yatzy",
-        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/644f9e15847cab051ded1893/screenshot_2023-05-01-11-10-29-0000.png",
-        "links": {
-            "ui": "https://kpyatzy.netlify.app/",
-            "code": "https://github.com/KrisPersson/yatzy-game"
-        },
-        "tech": [
-            "html", "css", "js"
-        ]
-    },
-    {
-        "projectName": "KP Four-In-a-Row",
-        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/644f9c4fcbc6c4051f1d0c51/screenshot_2023-05-01-11-02-56-0000.png",
-        "links": {
-            "ui": "https://kpfourinarow.netlify.app",
-            "code": "https://github.com/KrisPersson/four-in-a-row-game"
-        },
-        "tech": [
-            "html", "css", "js"
-        ]
-    },
-    {
         "projectName": "KP Bonzai",
         "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/63402388a2154900087a4d5a/screenshot_2022-10-07-13-03-14-0000.png",
         "links": {
@@ -63,6 +41,28 @@
         },
         "tech": [
             "html", "css", "ts"
+        ]
+    },
+    {
+        "projectName": "Tickets",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64d368f4a4ea5b4d2c56b37e/screenshot_2023-08-09-10-23-23-0000.png",
+        "links": {
+            "ui": "https://kp-tickets.netlify.app/",
+            "code": "https://github.com/KrisPersson/yhjs-react-5.2-tickets"
+        },
+        "tech": [
+            "html", "css", "react"
+        ]
+    },
+    {
+        "projectName": "Enellas Kahoots",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6367c422bfc0ac0009077ef9/screenshot_2022-11-06-14-26-57-0000.png",
+        "links": {
+            "ui": "https://enellaskahoots.netlify.app",
+            "code": "https://github.com/KrisPersson/enellas-kahoots"
+        },
+        "tech": [
+            "html", "css", "js"
         ]
     },
     {
@@ -98,23 +98,25 @@
             "html", "css", "react"
         ]
     },
+    
     {
-        "projectName": "Tickets",
-        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64d368f4a4ea5b4d2c56b37e/screenshot_2023-08-09-10-23-23-0000.png",
+        "projectName": "KP Yatzy",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/644f9e15847cab051ded1893/screenshot_2023-05-01-11-10-29-0000.png",
         "links": {
-            "ui": "https://kp-tickets.netlify.app/",
-            "code": "https://github.com/KrisPersson/yhjs-react-5.2-tickets"
+            "ui": "https://kpyatzy.netlify.app/",
+            "code": "https://github.com/KrisPersson/yatzy-game"
         },
         "tech": [
-            "html", "css", "react"
+            "html", "css", "js"
         ]
     },
+    
     {
-        "projectName": "Enellas Kahoots",
-        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/6367c422bfc0ac0009077ef9/screenshot_2022-11-06-14-26-57-0000.png",
+        "projectName": "KP Four-In-a-Row",
+        "thumbnail": "https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/644f9c4fcbc6c4051f1d0c51/screenshot_2023-05-01-11-02-56-0000.png",
         "links": {
-            "ui": "https://enellaskahoots.netlify.app",
-            "code": "https://github.com/KrisPersson/enellas-kahoots"
+            "ui": "https://kpfourinarow.netlify.app",
+            "code": "https://github.com/KrisPersson/four-in-a-row-game"
         },
         "tech": [
             "html", "css", "js"
